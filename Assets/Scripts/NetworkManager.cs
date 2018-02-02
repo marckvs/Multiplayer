@@ -13,7 +13,7 @@ public class NetworkManager : MonoBehaviour {
 
     void OnConnectedToMaster()
     {
-        PhotonNetwork.JoinOrCreateRoom("Gloabal", new RoomOptions() { maxPlayers = 2 }, null);
+        PhotonNetwork.JoinOrCreateRoom("Gloabal", new RoomOptions() { maxPlayers = 3 }, null);
     }
 	
     void OnJoinedRoom()
